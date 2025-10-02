@@ -29,13 +29,20 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center gap-3">
-                    <li class="nav-item"><a class="nav-link text-white active" href="#">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Fitur</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Testimoni</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link text-white active" href="#"><i class="bi bi-house-door me-1"></i>Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-stars me-1"></i>Fitur</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-briefcase me-1"></i>Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-chat-dots me-1"></i>Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-question-circle me-1"></i>FAQ</a></li>
                     <li class="nav-item ms-2">
-                        <a href="#" class="btn" style="background:#ff8c29;color:#fff;font-weight:600;border-radius:2rem;padding:0.5rem 2rem;">Ajukan Kalibrasi</a>
+                        <a href="#" class="btn" style="background:#ff8c29;color:#fff;font-weight:600;border-radius:2rem;padding:0.5rem 2rem;">
+                            <i class="bi bi-send-check me-1"></i>Ajukan Kalibrasi
+                        </a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a href="{{ route('login') }}" class="btn btn-light text-tosca fw-bold" style="border-radius:2rem;padding:0.5rem 1.5rem;">
+                            <i class="bi bi-box-arrow-in-right me-1"></i>Login
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +58,7 @@
                     <p class="mb-4" style="font-size:1.2rem;">
                         Solusi digital untuk pengelolaan proses kalibrasi dan pengujian alat ukur secara efisien, akurat, dan sesuai standar SNI ISO/IEC 17025:2017. Cocok untuk laboratorium, rumah sakit, dan industri!
                     </p>
-                    <a href="#" class="btn btn-light btn-lg text-tosca fw-bold px-4">Ajukan Kalibrasi</a>
+                    <a href="{{ route('register') }}" class="btn btn-light btn-lg text-tosca fw-bold px-4">Ajukan Kalibrasi</a>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="https://img.freepik.com/free-vector/medical-equipment-calibration-concept-illustration_114360-2581.jpg" alt="Kalibrasi & Pengujian" class="img-fluid" style="max-height:320px;">
