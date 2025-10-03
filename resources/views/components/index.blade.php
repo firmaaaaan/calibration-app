@@ -35,7 +35,7 @@
                     <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-chat-dots me-1"></i>Testimoni</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#"><i class="bi bi-question-circle me-1"></i>FAQ</a></li>
                     <li class="nav-item ms-2">
-                        <a href="#" class="btn" style="background:#ff8c29;color:#fff;font-weight:600;border-radius:2rem;padding:0.5rem 2rem;">
+                        <a href="{{ route('register') }}" class="btn" style="background:#ff8c29;color:#fff;font-weight:600;border-radius:2rem;padding:0.5rem 2rem;">
                             <i class="bi bi-send-check me-1"></i>Ajukan Kalibrasi
                         </a>
                     </li>

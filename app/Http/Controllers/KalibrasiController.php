@@ -56,7 +56,7 @@ class KalibrasiController extends Controller
             'user_id'       => auth()->id(), // <-- tambahkan ini
         ]);
 
-        return redirect()->route('kalibrasi.create')->with('status', 'Permohonan kalibrasi berhasil dikirim!');
+        return redirect()->route('kalibrasi.index')->with('status', 'Permohonan kalibrasi berhasil dikirim!');
     }
 
     /**

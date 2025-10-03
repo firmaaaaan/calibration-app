@@ -1,59 +1,5 @@
 @extends('components.layouts.main')
 @section('content')
-    <!-- Statistik Dinamis -->
-    <div class="row mb-4">
-        <div class="col-md-4 mb-3">
-            <div class="card card-stat shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-center">
-                        <div class="me-3">
-                            <i class="bi bi-clipboard-data text-tosca" style="font-size:2rem;"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-0 fw-bold">
-                                {{ $totalKalibrasi ?? 0 }}
-                            </h5>
-                            <small class="text-muted">Total Permohonan</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card card-stat shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-center">
-                        <div class="me-3">
-                            <i class="bi bi-check-circle text-tosca" style="font-size:2rem;"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-0 fw-bold">
-                                {{ $totalSelesai ?? 0 }}
-                            </h5>
-                            <small class="text-muted">Selesai</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card card-stat shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-center">
-                        <div class="me-3">
-                            <i class="bi bi-clock-history text-tosca" style="font-size:2rem;"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-0 fw-bold">
-                                {{ $totalProses ?? 0 }}
-                            </h5>
-                            <small class="text-muted">Proses Berjalan</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Tabel Permohonan Kalibrasi User -->
     <div class="card shadow-sm mb-4">
